@@ -1,0 +1,32 @@
+private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+jPanel1.setBackground(Color.green);                  // TODO add your handling code here:
+    }                                        
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        jPanel1.setBackground(Color.GRAY); 
+    }                                        
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        jPanel1.setBackground(Color.BLUE);
+        
+    }                                        
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        jPanel1.setBackground(Color.RED);
+    }                                        
+//MAIN METHOD
+package com.mycompany.gui;
+
+
+public class Gui {
+
+    public static void main(String[] args) 
+    {
+       jframe J1=new jframe();
+       J1.show();
+      
+    }
+}
